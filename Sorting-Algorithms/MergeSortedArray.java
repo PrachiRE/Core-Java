@@ -32,7 +32,7 @@ public class MergeSortedArray {
             indexR++;
         }
         while(indexB!=b.length){
-            resultArray[indexR] = a[indexB];
+            resultArray[indexR] = b[indexB];
             indexB++;
             indexR++;
         }
